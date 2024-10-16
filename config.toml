@@ -1,0 +1,23 @@
+TokenA = "UM"
+TokenB = "OSMO"
+
+[Celestia]
+RPC = "https://celestia-rpc.polkachu.com"
+Wallet = "Maat"
+
+[Cosmos]
+RPC = "https://cosmos-rpc.polkachu.com"
+Wallet = "Maat"
+
+[Noble]
+RPC = "https://noble-rpc.polkachu.com:443"
+Wallet = "Maat"
+
+[Osmosis]
+RPC = "https://rpc.osmosis.zone"
+Wallet = "Maat"
+
+[Penumbra]
+RPC = "https://void.s9.gay"
+Account = "0"
+
