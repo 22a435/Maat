@@ -2,7 +2,7 @@ TokenA = "UM"
 TokenB = "OSMO"
 
 [Celestia]
-RPC = "https://celestia-rpc.polkachu.com"
+RPC = "https://celestia-rpc.polkachu.com:443"
 Wallet = "Maat"
 
 [Cosmos]

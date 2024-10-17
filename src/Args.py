@@ -16,7 +16,7 @@ parser.add_argument("--TokenB", default=config.get("TokenB", "OSMO"))
 
 parser.add_argument(
     "--Celestia_RPC",
-    default=config.get("Celestia", {}).get("RPC", "https://celestia-rpc.polkachu.com"),
+    default=config.get("Celestia", {}).get("RPC", "https://celestia-rpc.polkachu.com:443"),
 )
 parser.add_argument(
     "--Cosmos_RPC",
