@@ -9,7 +9,6 @@ from src.Consts import (
 )
 from src.Query import (
     get_penumbra_deposit_address,
-    get_osmosis_address,
     get_sdk_address,
     await_osmosis_tx,
     await_sdk_tx,
@@ -178,6 +177,7 @@ def deposit(chain, amount, token):
         f"--gas-prices={get_gas_price(chain)}",
         f"--from={get_wallet(chain)}",
         "--output=json",
+        "--packet-timeout-height=1-1800",
         "-y",
     ]
     print(cmd)
