@@ -124,6 +124,7 @@ def arbitrage(A, B):
         BIn = solve_B(dir, AIn, EBOut)
         print("B", BIn / get_decimals(B))
         EAOut = pba_swap(BIn)
+        EBOut = oab_swap(AIn) #recheck incase prices have changed
         print(
             f"best solve: osmosis({AIn/get_decimals(A)} {A} => {EBOut/get_decimals(B)} {B}), penumbra({BIn/get_decimals(B)} {B} => {EAOut/get_decimals(A)} {A})"
         )

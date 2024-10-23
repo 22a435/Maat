@@ -3,14 +3,14 @@ Consts = {
         "Celestia": {
             "binary": "celestia-appd",
             "chain-id": "celestia",
-            "channels": {"Osmosis": "2"},
+            "channels": {"Osmosis": "2", "Penumbra": "35"},
             "denoms": {"TIA": "utia"},
             "gas_price": "0.002utia",
         },
         "Cosmos": {
             "binary": "gaiad",
             "chain-id": "cosmoshub-4",
-            "channels": {"Osmosis": "141"},
+            "channels": {"Osmosis": "141", "Penumbra": "940"},
             "denoms": {"ATOM": "uatom"},
             "gas_price": "0.005uatom",
         },
